@@ -41,15 +41,25 @@ The dataset consists of customer attributes, including:
 
 - The bar graph shows that the dataset is imbalanced, with fewer churned customers (1) than non-churned customers (0). This shows that churn is lower in number, the business might not yet have a severe churn issue but requires proactive measures to prevent escalation.
 
+**Distribution of numerical features**
+
+![image](https://github.com/user-attachments/assets/e219b873-d515-4b2d-8bcd-f4d8d357290a)
+
+- Features like total day minutes, total eve minutes, and total night minutes are normally distributed.
+Customer service calls are right-skewed indicating that most customers make fewer calls..
+
+**Churn vs. Categorical Features (International Plan & Voice Mail Plan)**
+
+![image](https://github.com/user-attachments/assets/e418f012-c449-4351-9fee-097f15e0b7de)
+
+- Customers with an international plan churn more than those without it.
+- Voice mail plan does not significantly affect churn..
+
 **Customer service calls vs churn**
 
 ![image](https://github.com/user-attachments/assets/7152e8e8-db25-4317-88b8-51857f445822)
 
 - The box plot shows that Customers who make more customer service calls tend to churn at a higher rate. Frequent service calls might indicate dissatisfaction with the service.
-
-**Distribution of customer service calls by churn**
-
-![image](https://github.com/user-attachments/assets/259df1d4-3bb1-482d-a496-fa3d76f99ee6)
 
 **Distribution of total day minutes by churn**
 
