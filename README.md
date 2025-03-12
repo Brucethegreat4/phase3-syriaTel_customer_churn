@@ -63,15 +63,10 @@ Customer service calls are right-skewed indicating that most customers make fewe
 
 **Distribution of total day minutes by churn**
 
-![image](https://github.com/user-attachments/assets/00cfb7c4-7150-4e3a-b74b-f43f3680b5f6)
+![image](https://github.com/user-attachments/assets/7bb755ed-d716-4166-a52a-3ada65260c40)
+
 
 - The histogram shows a higher density of churned customers in the upper range of total day minutes. Customers who spend more time on calls during the day tend to churn more. This means that high usage customers may be more sensitive to service quality or pricing issues.syriaTel should find ways to customer retention.
-
-**Correlation heatmap**
-
-![image](https://github.com/user-attachments/assets/5a823558-8a92-4d81-bdfb-ec18e831049f)
-
-- The correlation heatmap shows total day charge and total day minutes are highly correlated (almost 1.0), indicating they provide similar information. One of these features can be dropped to avoid multicollinearity in the model.
 
 ## Data Preprocessing
 
@@ -113,6 +108,11 @@ Customer service calls are right-skewed indicating that most customers make fewe
 4. **Usage Patterns:**
 
    - High usage customers (e.g., those with high total day minutes) are more likely to churn, possibly due to pricing or service quality concerns.
+  
+  ## Conclusion
+- Random forest was the best model with 95% accuracy which was the best for predicting accuracy
+
+- By leveraging machine learning to predict customer churn, SyriaTel can take proactive steps to retain customers, reduce revenue loss, and improve overall customer satisfaction. The insights and recommendations provided in this project offer a roadmap for SyriaTel to address churn effectively and enhance its competitive position in the telecommunications market.
 
 ## Recommendations & Next Steps for SyriaTel
 
@@ -134,6 +134,8 @@ Customer service calls are right-skewed indicating that most customers make fewe
 6. **Dashboard Integration:**
    - Develop an internal dashboard for real-time churn tracking and monitoring of retention strategies.
 
-## Conclusion
 
-- By leveraging machine learning to predict customer churn, SyriaTel can take proactive steps to retain customers, reduce revenue loss, and improve overall customer satisfaction. The insights and recommendations provided in this project offer a roadmap for SyriaTel to address churn effectively and enhance its competitive position in the telecommunications market.
+REferences
+- https://moringa.instructure.com/courses notes
+- https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset
+
